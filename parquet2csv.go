@@ -243,9 +243,6 @@ func ReadParquet(fr source.ParquetFile) error {
 		return err
 	}
 
-	type FileMetaData.GetSchema() []*SchemaElement
-
-
 	/**************************************************************
 		Read Parquet File
 	 **************************************************************/
